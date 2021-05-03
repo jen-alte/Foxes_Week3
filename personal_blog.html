@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Jenny's Personal Blog</title>
+        <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div id = "author_photo" class = "photo">
+            <img source = ./images/selfie.jpeg alt = "A photo of the blog's author smiling" />
+        </div>
+        <!--Creates a toggle button for French or English language selection-->
+        <div id = "language_toggle" class = "toggle_button_slider">
+            <label class="switch">
+                <input type= "checkbox">
+        <!--Requires styling in CSS to achieve the toggle button appearance-->        
+                <span class= "slider round"></span>
+                <p>
+                    <span>EN</span><span> FR</span>
+                </p>
+            </label>
+        </div>
+        
+        <header>
+            <h1>Jenny's Personal Blog</h1>
+        </header>
+        <section>   
+            <p>
+            <strong>About the author: </strong>Jenny is an aspiring web developer who lives in Sherbrooke, Quebec.
+            </p>
+        </section> 
+        <article>
+            <!--The blog post-->
+            <h2>
+                <strong>New Beginnings</strong> 05/02/2021
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu.
+            </p>
+        </article>
+        <footer>
+            <p>
+                Contact me: by email @ awesomewebdev@gmail.ca
+            </p>
+            <p>
+                Site design and content copyright 2021
+            </p>
+        </footer>
+        <nav class = "navbar">
+            <h2>Earlier Posts</h2>
+            <ol>
+                <!--The numbers for the ordered list will need removed via CSS-->
+                <li>
+                    <a href= "http://www.blogpost1.ca">I Love Cats</a>
+                </li>
+                <li>
+                    <a href= "http://www.blogpost2.ca">My Hobbies</a>
+                </li>
+                <li>
+                    <a href= "http://www.blogpost3.ca">Fave Foods</a>
+                </li>
+                <li>
+                    <a href= "http://www.blogpost4.ca">My BFF</a>
+                </li>
+                <li>
+                    <a href= "http://www.blogpost5.ca">Love is Grand</a>
+                </li>
+            </ol>
+        </nav>
+        <div class = "poll">
+            <!--A poll asking visitors if they are enjoying the site-->
+            <h2>Poll</h2>
+            <p>
+                Are you enjoying my web site?
+            </p>
+            <div>
+                <input type="radio" id="yes" name="survey" value="Yes"
+         checked>
+                <label for="Yes">Yes</label>
+            </div>
+            <div>
+                <input type="radio" id="no" name="survey" value="No"
+         checked>
+                <label for="No">No</label>
+            </div>
+            <div class= "button">
+                <button>Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
